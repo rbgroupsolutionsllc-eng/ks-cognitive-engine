@@ -101,8 +101,11 @@ Whenever generating code, the agent enforces these strict prohibitions:
 
 ```
 ks-cognitive-engine/
+├── .github/workflows/
+│   └── auto_evolve_scout.yml         # Weekly GitHub Actions Self-Evolution Workflow
 ├── SKILL.md                          # Main Skill Definition (YAML Frontmatter + Directives)
 ├── README.md                         # Comprehensive Open-Source Documentation
+├── CHANGELOG_EVOLUTION.md            # Autonomous Ecosystem Evolution Ledger
 ├── LICENSE                           # MIT License
 ├── install.sh                        # Automated Cross-Platform Installer
 ├── references/
@@ -116,16 +119,30 @@ ks-cognitive-engine/
 │   ├── ambiguity-resolver.md         # Production default inference on short prompts
 │   └── sot-got-architecture.md       # Full DAG decomposition of complex systems
 └── scripts/
-    └── lint_cognitive_rules.py       # Python script to audit code against KS rules
+    ├── lint_cognitive_rules.py       # Anti-Pattern Linter & Auto-Fix Healing Engine
+    ├── auto_scout_ecosystem.py       # Autonomous Weekly Ecosystem Scout
+    └── sync_with_ks_sentinel.py      # Local KS Sentinel Bridge Synchronizer
 ```
 
 ---
 
-## 🧪 Quick Test & Validation
+## 🧬 Self-Evolution & Autonomous Healing Suite
 
-You can audit any generated code or markdown file using the built-in linter:
+Unlike static text prompts, **KS Cognitive Engine** is a **living, self-evolving intelligence protocol**:
+
+### 1. 🛠️ Auto-Fix & Code Self-Healing (`--fix`)
+Scan your workspace and automatically heal banned anti-patterns in place:
 ```bash
-python3 scripts/lint_cognitive_rules.py /path/to/your/code.ts
+# Audit and auto-repair anti-patterns across your project
+python3 scripts/lint_cognitive_rules.py ./src --fix
+```
+
+### 2. 🛰️ Autonomous Weekly Ecosystem Scout (GitHub Actions)
+Every Sunday, our GitHub Actions workflow scans trending agent frameworks (`kaushikb11/awesome-llm-agents`) and updates [`CHANGELOG_EVOLUTION.md`](CHANGELOG_EVOLUTION.md) with newly discovered patterns.
+
+### 3. 🔄 Run Evolution Scout Manually
+```bash
+python3 scripts/auto_scout_ecosystem.py
 ```
 
 ---
