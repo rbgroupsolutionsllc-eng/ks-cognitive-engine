@@ -120,8 +120,7 @@ ks-cognitive-engine/
 │   └── sot-got-architecture.md       # Full DAG decomposition of complex systems
 └── scripts/
     ├── lint_cognitive_rules.py       # Anti-Pattern Linter & Auto-Fix Healing Engine
-    ├── auto_scout_ecosystem.py       # Autonomous Weekly Ecosystem Scout
-    └── sync_with_ks_sentinel.py      # Local KS Sentinel Bridge Synchronizer
+    └── auto_scout_ecosystem.py       # Autonomous Weekly Ecosystem Scout
 ```
 
 ---

@@ -1,18 +1,18 @@
 ---
 name: ks-cognitive-engine
-description: "Operational cognitive engineering engine from KS Server: applies OODA loop, RED_FIRST, RED_TEAM, Negative Prompting (anti-patterns), Skeleton-of-Thought / Graph-of-Thoughts decomposition, Ambiguity Resolver, dense token economy, and Reflexion syntax verification directly to LLM agents without external scrapers."
+description: "Universal cognitive engineering engine: applies OODA loop, RED_FIRST, RED_TEAM, Negative Prompting (anti-patterns), Skeleton-of-Thought / Graph-of-Thoughts decomposition, Ambiguity Resolver, dense token economy, and Reflexion syntax verification directly to LLM agents."
 category: cognition
 version: "3.5"
-author: "KS Server Core Team (RB Group Solutions LLC)"
+author: "RB Group Solutions LLC"
 date_added: "2026-08-19"
 license: "MIT"
 ---
 
 # KS Cognitive Engine (Agile AI Intelligence Protocol)
 
-The **KS Cognitive Engine** equips any AI coding agent (Claude Code, Antigravity, OpenCode, Codex CLI, Cursor, Windsurf, or local LLMs) with operational discipline, cognitive reasoning patterns, and anti-pattern filters derived from the **KS Server v3.5 Architecture**.
+The **KS Cognitive Engine** equips any AI coding agent (Claude Code, Antigravity, OpenCode, Codex CLI, Cursor, Windsurf, or local LLMs) with operational discipline, cognitive reasoning patterns, and anti-pattern filters.
 
-It runs **100% natively inside the model's cognition**, with zero external scrapers or cloud dependencies.
+It runs **100% natively inside the model's cognition**, without requiring external services or cloud dependencies.
 
 ---
 
