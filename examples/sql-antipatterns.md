@@ -3,6 +3,7 @@
 ## Scenario: User Authentication & Query Lookup
 
 ### ❌ Before (Naive LLM Output with Anti-Patterns)
+<!-- ks-lint-ignore-next -->
 ```javascript
 // BAD: Direct string concatenation, unconstrained SELECT *
 async function getUserByEmail(email) {

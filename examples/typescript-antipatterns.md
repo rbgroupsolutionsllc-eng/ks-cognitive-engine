@@ -3,6 +3,7 @@
 ## Scenario: API Client with State Management
 
 ### ❌ Before (Naive LLM Output with Anti-Patterns)
+<!-- ks-lint-ignore-next -->
 ```typescript
 import React, { useState, useEffect } from 'react';
 

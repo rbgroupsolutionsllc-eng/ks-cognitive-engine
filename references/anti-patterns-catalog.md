@@ -7,6 +7,7 @@ Negative prompting is the explicit prohibition of anti-patterns and bad coding h
 ## 1. TypeScript & JavaScript Anti-Patterns
 
 ### ❌ Anti-Pattern 1: The `any` Escape Hatch
+<!-- ks-lint-ignore-next -->
 ```typescript
 // BAD
 function processData(input: any): any {
@@ -94,6 +95,7 @@ def append_entry(entry: str, collection: list | None = None) -> list:
 ## 3. SQL & Database Anti-Patterns
 
 ### ❌ Anti-Pattern 1: String Concatenation Query (SQLi)
+<!-- ks-lint-ignore-next -->
 ```javascript
 // BAD
 const query = `SELECT * FROM users WHERE email = '${userEmail}'`;
